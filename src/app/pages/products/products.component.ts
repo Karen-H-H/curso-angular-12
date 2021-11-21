@@ -34,5 +34,4 @@ export class ProductsComponent implements OnInit {
     console.log('Add to cart', product);
     this.shoppingCartSvc.updateCart(product);
   }
-
 }

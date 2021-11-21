@@ -53,67 +53,163 @@
   "products": [
     {
       "id": 1,
-      "name": "Essential TypeScript 4: From Beginner to Pro",
-      "price": 45,
-      "description": "Learn the essentials and more of TypeScript, a popular superset of the JavaScript language that adds support for static typing. TypeScript combines the typing features of C# or Java.",
-      "categoryId": 1,
-      "stock": 0
+      "name": "El cuento de la criada",
+      "price": "400",
+      "description": "La serie de HBO inspirada en él ha dado alas a este cuento escrito a mediados de los 90 por Margaret Atwood, una historia inquietante, oscura y angustiosa que nos sitúa en la república de Gilead, donde Defred es una más de tantas mujeres que han perdido todos sus derechos y que solo sirven para una cosa: procrear. Atwood nos sumerge en un mundo asfixiante que nos hace reflexionar si podría ser nuestro propio planeta",
+      "categoryId": 0,
+      "stock": 20
     },
     {
       "id": 2,
-      "name": "Hackeando el cerebro de tus compradores: PsychoGrowth",
-      "price": 5,
-      "description": "En Hackeando del cerebro de tus compradores, Corti nos revela cómo muchas compañías crean productos digitales o procesos de venta capaces de conectar con la psicología del comprador.",
-      "categoryId": 1,
-      "stock": 10
+      "name": "Cuento de Navidad",
+      "price": "300",
+      "description": "No esperes a que llegue diciembre para admirar esta historia que seguro que ya has visto en televisión pero que ya es hora de que la leas tal cual es. Dickens nos presenta al avaricioso señor Scrooge, que no soporta la navidad ni el buen rollo asociado a ella. Pero la noche de nochebuena se le presenta el fantasma del antiguo socio de su negocio, que le hará cambiar de opinión.",
+      "categoryId": 0,
+      "stock": 20
     },
     {
       "id": 3,
-      "name": "Angular Routing: Learn To Create client-side and SPA with Routing and Navigation",
-      "price": 17,
-      "description": "In this book, the reader will be able to focus on one concept of Angular in deep.",
-      "categoryId": 1,
-      "stock": 10
+      "name": "Desayuno en Tiffany's",
+      "price": "299",
+      "description": "Otro caso parecido al anterior: ¿cuántas veces has visto la película de Audrey Hepburn? Por si no sabes, es una adaptación literaria, y de las buenas, de una novela de Truman Capote. La protagonista es la elegante y especial Holly Golightly, conocida por el glamour y por los fiestones que monta en Nueva York. Pero cuando las luces se apagan, ella se siente terriblemente sola.",
+      "categoryId": 0,
+      "stock": 20
     },
     {
       "id": 4,
-      "name": "SanDisk 128GB Ultra MicroSDXC UHS-I Memory Card with Adapter",
-      "price": 19,
-      "description": "Ideal for Android smartphones and tablets, and MIL cameras. SanDisk Memory Zone app for easy file management (Download and Installation Required).",
-      "categoryId": 2,
-      "stock": 10
+      "name": "En el camino",
+      "price": "199",
+      "description": "Sal Paradise y Dean Moriarty emprenden un viaje por Estados Unidos donde la ruta parece lo menos importante. A cambio, el sexo, las drogas, las mujeres, la amistad y la música se erigen como temas principales de la obra magna de la 'Beat Generation' y una de las grandes influencias de la cultura hippie.",
+      "categoryId": 0,
+      "stock": 20
     },
     {
       "id": 5,
-      "name": "GoPro HERO9 Black - Waterproof Action Camera with Front LCD",
-      "price": 399,
-      "description": "5K Video - Shoot stunning video with up to 5K resolution, perfect for maintaining detail even when zooming in",
-      "categoryId": 2,
-      "stock": 10
+      "name": "El gran Gatsby",
+      "price": "400",
+      "description": "Esta obra ha sido puesta de ejemplo como 'la gran novela americana'. Eso va a gustos, porque también tenemos a grandes autores como Steinbeck o McCarthy, pero desde luego el retrato social que hizo Fitzgerald de la sociedad de su país, previa a la Gran Depresión, es magnífico. Cuenta la historia del increíblemente rico Jay Gatsby, que se enamora de la joven Daisy Buchanan, en un momento de fiestas definidas por el New York Times en las que 'la ginebra era la bebida nacional y el sexo la obsesión nacional'.",
+      "categoryId": 0,
+      "stock": 20
     },
     {
       "id": 6,
-      "name": "CL3 Rated High-Speed 4K HDMI Cable - 6 Feet",
-      "price": 7,
-      "description": "HDMI A Male to A Male Cable: Supports Ethernet, 3D, 4K video and Audio Return Channel (ARC)",
+      "name": "Crimen y castigo",
+      "price": 270,
+      "description": "Fiódor Dostoievski escribió en 1866 esta enorme obra maestra de la literatura en la que se aborda cómo podemos convivir con nuestras acciones. El protagonista es Raskolnikov, un joven estudiante que cree firmemente que los fines humanitarios justifican cualquier acción, incluso el asesinato, y así acabará sin remordimientos con la vida de una usurera. Sin embargo, no se imaginará que la voz de su conciencia le importa más que cualquier persecución policial. Solo Sonya, una prostituta, podrá redimirle.",
       "categoryId": 2,
-      "stock": 10
+      "stock": 20
     },
     {
       "id": 7,
-      "name": "Logitech MK270 Wireless Keyboard and Mouse Combo",
-      "price": 32,
-      "description": "The USB receiver is conveniently located in the box, top flap. This wireless keyboard and mouse feature Logitech Advanced 2.4GHz technology with a range of up to 10 metres.",
+      "name": "Las aventuras de Huckleberry Finn",
+      "price": 132,
+      "description": "La suerte de Huckleberry Finn, el mejor amigo de Tom Sawyer, se acaba cuando su padre regresa al pueblo y se lo lleva a vivir a una cabaña. Huck logra escapar en una balsa río abajo y se encuentra con su amigo Jim, un esclavo que, como él, huye buscando la libertad. Cuando lo lees de pequeña lo que te llama la atención es lo malhablado que puede ser el protagonista y lo divertidas que son sus aventuras en el Mississippi, pero de adulta entenderás el potente mensaje contra el racismo que esconde la amistad entre Huck y Jim.",
       "categoryId": 3,
-      "stock": 10
+      "stock": 20
     },
     {
       "id": 8,
-      "name": "External CD Drive USB 3.0 Portable CD DVD +/-RW Drive DVD/CD ROM",
-      "price": 20,
-      "description": "Plug & play. Easy to use,powered by USB port. No external driver and Power needed. Just plug it into your USB port and the DVD driver will be detected",
+      "name": "La ladrona de libros",
+      "price": 120,
+      "description": "Estamos en la Alemania nazi de 1939, en un país que está empezando a escribir algunas de las páginas más horribles de la historia. Liesel es una niña de nueve años que, a los pies de la tumba de su hermano, roba un libro: el 'Manual del sepulturero', que alguien ha dejado allí abandonado. Será el primero de una lista de grandes robos de libros que configuran una de las historias más hermosas de los últimos tiempos.",
       "categoryId": 3,
-      "stock": 10
+      "stock": 20
+    },
+    {
+      "id": 9,
+      "name": "Jane Eyre",
+      "price": 205,
+      "description": "Aparentemente, 'Jane Eyre' es una novela de amor; detrás, se esconde mucho más. Fue la primera obra publicada por una de las hermanas Brontë –aunque la tuvo que firmar con el seudónimo Currer Bell, para evitar los prejuicios por ser mujer– y narra la historia de una joven huérfana que llega a Thornfield Hall, donde es contratada por el orgulloso Edward Rochester para cuidar de su hija Adèle. Jane se siente atraída por Rochester, pero la relación es difícil y la mansión esconde un secreto.",
+      "categoryId": 1,
+      "stock": 20
+    },
+    {
+      "id": 10,
+      "name": "El señor de las moscas",
+      "price": 217,
+      "description": "Una obra cuya calidad tiene tanto defensores como detractores, y que fue adaptada recientemente como serie por Netflix bajo el título 'The Society'. William Golding, premio Nobel de Literatura en 1983 nos lleva hasta la próxima guerra mundial, cuando el avión en el que viajan un grupo de jóvenes se estrella en una isla desconocida. Sin adultos que les supervisen, todo comienza siendo una fiesta, porque pueden hacer lo que quieran. Con lo que no contaban es con la dificultad y la tragedia de establecer una sociedad.",
+      "categoryId": 1,
+      "stock": 20
+    },
+    {
+      "id": 11,
+      "name": "Volverás a Región",
+      "price": 219,
+      "description": "Seamos sinceros. 'Volverás a Región' no es un libro fácil de leer; pero precisamente ese es su valor estilístico, la enorme renovación en el lenguaje que estableció con esta obra Juan Benet, uno de los grandes escritores españoles del siglo XX. Región es un lugar que no existe en la realidad, adonde al acabar la Guerra Civil huyeron varios combatientes, y donde se establecerá una dolorosa conversación entre una misteriosa mujer y el doctor protagonista. Dolorosa y maravillosa, invita a la reflexión sobre la sinrazón de nuestra contienda.",
+      "categoryId": 2,
+      "stock": 20
+    },
+    {
+      "id": 12,
+      "name": "Lo que el viento se llevó",
+      "price": 299,
+      "description": "Si te gusta la película, es imprescindible que leas la obra original de Margaret Mitchell en la que se inspiró. Es un novelón y sí, hay que decirlo, es mucho mejor que el filme de Victor Fleming y George Cukor. El personaje de Escarlata O'Hara tiene muchos más matices y aparecen muchos segmentos de la historia que conoces que no fueron adaptados.",
+      "categoryId": 2,
+      "stock": 20
+    },
+    {
+      "id": 13,
+      "name": "1984",
+      "price": 99,
+      "description": "La maravillosa fábula de George Orwell nos lleva a un mundo de ciencia ¿ficción? situado en Londres, en 1984 (hay que tener en cuenta que la obra fue publicada en 1949), con un Gran Hermano vigilándolo todo y una Policía del Pensamiento atenta a todo lo que los ciudadanos hacen, opinan y sienten. El protagonista tiene en sus manos seguir con lo establecido o romper con la opresión.",
+      "categoryId": 2,
+      "stock": 20
+    },
+    {
+      "id": 14,
+      "name": "Alicia en el país de las maravillas",
+      "price": 320,
+      "description": "'Que le corten la cabeza', pide la reina de corazones a la pequeña Alicia, cuyas aventuras han comenzado cuando, sentada con su hermana en el jardín, ven pasar a un conejo con un reloj de bolsillo. ¿Pero qué es eso? Alicia sale corriendo tras él y cae en un oscuro agujero que le llevará al país de las maravillas y a uno de los libros más tiernos de esta lista, escrito por Lewis Carroll.",
+      "categoryId": 3,
+      "stock": 20
+    },
+    {
+      "id": 15,
+      "name": "Americanah",
+      "price": 200,
+      "description": "Una de las entradas más feministas de la lista corresponde a un libro imperdible, Americanah, de 2013, en el que conocemos la historia de Obinze, una joven nigeriana que siempre ha querido vivir y estudiar en Estados Unidos. Ella va a intentar su sueño, pero no quiere convertirse en una 'americanah', que es como llaman en su país a los que vuelven con ínfulas de América.",
+      "categoryId": 3,
+      "stock": 20
+    },
+    {
+      "id": 16,
+      "name": "A puerta cerrada",
+      "price": 115,
+      "description": "No nos arriesgamos si decimos que Luis García Montero es el mejor poeta vivo español, así que tampoco es un equívoco recomendar su antología de versos más recientes, 'A puerta cerrada'. El granadino hace un doliente recorrido de la sociedad española tras la crisis, de todo lo perdido en los años pasados, de cómo la democracia ha quedado a su juicio definitivamente tocada.",
+      "categoryId": 1,
+      "stock": 20
+    },
+    {
+      "id": 17,
+      "name": "Asesinato en el Orient Express",
+      "price": 117,
+      "description": "¿Aún no has leído la obra mítica de Agatha Christie? Pues estás tardando. Te guste o no el género policíaco, reconocerás al llegar a las últimas páginas que la resolución del crimen acontecido en el tren más glamuroso de la historia es, simplemente, genial. Doce personas son los sospechosos del asesinato que tendrá que resolver uno de los inspectores más famosos de la literatura, Hercules Poirot.",
+      "categoryId": 1,
+      "stock": 20
+    },
+    {
+      "id": 18,
+      "name": "El extranjero",
+      "price": 280,
+      "description": "En plena Segunda Guerra Mundial, Albert Camus revolucionó la literatura europea con este descarnado relato sobre un hombre que, extranjero en sí mismo y totalmente fuera de su propio control, comete un crimen. Descontrolado y condenado, su vida ya no tiene sentido, pero es que quizás tampoco la tenía atrapado en la rutina de su normalidad.",
+      "categoryId": 0,
+      "stock": 20
+    },
+    {
+      "id": 19,
+      "name": "Frankenstein",
+      "price": 218,
+      "description": "Probablemente, la mejor novela de terror de todos los tiempos y una de las que más ha contribuido a crear al monstruo moderno, ese que tiene incluso 'su corazoncito'. Mary Shelley, hija de unos intelectuales de su época, escribió la historia del inventor Victor Frankestein, quien creó una criatura a la que acabó rechazando.",
+      "categoryId": 1,
+      "stock": 20
+    },
+    {
+      "id": 20,
+      "name": "El guardián entre el centeno",
+      "price": "150",
+      "description": "A pesar de su mala fama (era el libro favorito del asesino de John Lennon), la obra de Salinger tiene otra perspectiva cuando la leemos de adultos -quizás lo de obligarlo a leer en la adolescencia no sea una idea muy buena-. Es el relato de posguerra de un joven Holden Caulfield, que tiene que enfrentarse a las normas rígidas de su familia, al fracaso en la escuela y a las primeras experiencias sexuales.",
+      "categoryId": 0,
+      "stock": 20
     }
   ],
   "orders": [
@@ -124,14 +220,343 @@
       "shippingAddress": "Av. de la Granvia de Hospitalet, 115",
       "city": "Barcelona",
       "pickup": true
+    },
+    {
+      "name": "hh",
+      "store": {
+        "id": 1,
+        "name": "Park Row at Beekman St",
+        "address": "38 Park Row",
+        "city": "New York",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "17/11/2021",
+      "isDelivery": false,
+      "id": 2
+    },
+    {
+      "name": "h",
+      "store": {
+        "id": 2,
+        "name": "Store Alcalá",
+        "address": "Calle de Alcalá, 21",
+        "city": "Madrid",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "18/11/2021",
+      "isDelivery": false,
+      "id": 3
+    },
+    {
+      "name": "kh",
+      "shippingAddress": "asd",
+      "city": "a",
+      "date": "18/11/2021",
+      "isDelivery": true,
+      "id": 4
+    },
+    {
+      "name": "hh",
+      "store": {
+        "id": 2,
+        "name": "Store Alcalá",
+        "address": "Calle de Alcalá, 21",
+        "city": "Madrid",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "18/11/2021",
+      "isDelivery": false,
+      "id": 5
+    },
+    {
+      "name": "h",
+      "store": {
+        "id": 2,
+        "name": "Store Alcalá",
+        "address": "Calle de Alcalá, 21",
+        "city": "Madrid",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "18/11/2021",
+      "isDelivery": false,
+      "id": 6
+    },
+    {
+      "name": "a",
+      "store": {
+        "id": 3,
+        "name": "Chambers and West Broadway",
+        "address": "125 Chambers Street",
+        "city": "New York",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "18/11/2021",
+      "isDelivery": false,
+      "id": 7
+    },
+    {
+      "name": "b",
+      "store": {
+        "id": 4,
+        "name": "Covent Garden - Russell St",
+        "address": "10 Russell Street",
+        "city": "London",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "18/11/2021",
+      "isDelivery": false,
+      "id": 8
+    },
+    {
+      "name": "asd",
+      "store": {
+        "id": 3,
+        "name": "Chambers and West Broadway",
+        "address": "125 Chambers Street",
+        "city": "New York",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "19/11/2021",
+      "isDelivery": false,
+      "id": 9
+    },
+    {
+      "name": "xx",
+      "store": {
+        "id": 5,
+        "name": "Monmouth St",
+        "address": "11 Monmouth Street",
+        "city": "London",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "19/11/2021",
+      "isDelivery": false,
+      "id": 10
+    },
+    {
+      "name": "h",
+      "store": {
+        "id": 5,
+        "name": "Monmouth St",
+        "address": "11 Monmouth Street",
+        "city": "London",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "19/11/2021",
+      "isDelivery": false,
+      "id": 11
+    },
+    {
+      "name": "a",
+      "store": {
+        "id": 5,
+        "name": "Monmouth St",
+        "address": "11 Monmouth Street",
+        "city": "London",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "19/11/2021",
+      "isDelivery": false,
+      "id": 12
+    },
+    {
+      "name": "h",
+      "store": {
+        "id": 4,
+        "name": "Covent Garden - Russell St",
+        "address": "10 Russell Street",
+        "city": "London",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "19/11/2021",
+      "isDelivery": false,
+      "id": 13
+    },
+    {
+      "name": "a",
+      "store": {
+        "id": 3,
+        "name": "Chambers and West Broadway",
+        "address": "125 Chambers Street",
+        "city": "New York",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "19/11/2021",
+      "isDelivery": false,
+      "id": 14
+    },
+    {
+      "name": "kh",
+      "store": {
+        "id": 4,
+        "name": "Covent Garden - Russell St",
+        "address": "10 Russell Street",
+        "city": "London",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "19/11/2021",
+      "isDelivery": false,
+      "id": 15
+    },
+    {
+      "name": "a",
+      "store": {
+        "id": 4,
+        "name": "Covent Garden - Russell St",
+        "address": "10 Russell Street",
+        "city": "London",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "20/11/2021",
+      "isDelivery": false,
+      "id": 16
+    },
+    {
+      "name": "j",
+      "store": {
+        "id": 3,
+        "name": "Chambers and West Broadway",
+        "address": "125 Chambers Street",
+        "city": "New York",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "20/11/2021",
+      "isDelivery": false,
+      "id": 17
+    },
+    {
+      "name": "as",
+      "store": {
+        "id": 4,
+        "name": "Covent Garden - Russell St",
+        "address": "10 Russell Street",
+        "city": "London",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "20/11/2021",
+      "isDelivery": false,
+      "id": 18
+    },
+    {
+      "name": "as",
+      "store": {
+        "id": 4,
+        "name": "Covent Garden - Russell St",
+        "address": "10 Russell Street",
+        "city": "London",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "20/11/2021",
+      "isDelivery": false,
+      "id": 19
+    },
+    {
+      "name": "as",
+      "store": {
+        "id": 4,
+        "name": "Covent Garden - Russell St",
+        "address": "10 Russell Street",
+        "city": "London",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "20/11/2021",
+      "isDelivery": false,
+      "id": 20
+    },
+    {
+      "name": "a",
+      "store": {
+        "id": 5,
+        "name": "Monmouth St",
+        "address": "11 Monmouth Street",
+        "city": "London",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "20/11/2021",
+      "isDelivery": false,
+      "id": 21
+    },
+    {
+      "name": "h",
+      "store": {
+        "id": 4,
+        "name": "Covent Garden - Russell St",
+        "address": "10 Russell Street",
+        "city": "London",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "20/11/2021",
+      "isDelivery": false,
+      "id": 22
+    },
+    {
+      "name": "h",
+      "store": {
+        "id": 3,
+        "name": "Chambers and West Broadway",
+        "address": "125 Chambers Street",
+        "city": "New York",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "20/11/2021",
+      "isDelivery": false,
+      "id": 23
     }
   ],
   "detailsOrders": [
     {
-      "id": 1,
-      "orderId": 1,
-      "quantity": 10,
-      "productName": "Product name"
+      "details": [
+        {
+          "productId": 6,
+          "productName": "Crimen y castigo",
+          "quantity": 2
+        }
+      ],
+      "orderId": 17,
+      "id": 17
+    },
+    {
+      "details": [
+        {
+          "productId": 7,
+          "productName": "Las aventuras de Huckleberry Finn",
+          "quantity": 2
+        },
+        {
+          "productId": 8,
+          "productName": "La ladrona de libros",
+          "quantity": 1
+        },
+        {
+          "productId": 9,
+          "productName": "Jane Eyre",
+          "quantity": 1
+        }
+      ],
+      "orderId": 21,
+      "id": 18
+    },
+    {
+      "details": [
+        {
+          "productId": 7,
+          "productName": "Las aventuras de Huckleberry Finn",
+          "quantity": 7
+        }
+      ],
+      "orderId": 22,
+      "id": 19
+    },
+    {
+      "details": [
+        {
+          "productId": 7,
+          "productName": "Las aventuras de Huckleberry Finn",
+          "quantity": 1
+        }
+      ],
+      "orderId": 23,
+      "id": 20
     }
   ]
 }

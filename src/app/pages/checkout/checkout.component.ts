@@ -16,12 +16,12 @@ import { ProductsService } from '../products/services/products.service';
 })
 export class CheckoutComponent implements OnInit {
   model = {
-    name: 'Dominicode',
+    name: '',
     store: '',
     shippingAddress: '',
     city: ''
   };
-  isDelivery = true;
+  isDelivery = false;
   cart: Product[] = [];
   stores: Store[] = []
   constructor(
@@ -53,7 +53,8 @@ export class CheckoutComponent implements OnInit {
     this.dataSvc.saveOrder(data)
       .pipe(
         tap(res => console.log('Order ->', res)),
-        switchMap(({ id: orderId }) => {
+        switchMap((order) => {
+          const orderId = order.id;
           const details = this.prepareDetails();
           return this.dataSvc.saveDetailsOrder({ details, orderId });
         }),
@@ -79,6 +80,7 @@ export class CheckoutComponent implements OnInit {
     const details: Details[] = [];
     this.cart.forEach((product: Product) => {
       const { id: productId, name: productName, qty: quantity, stock } = product;
+      details.push({ productId, productName, quantity });
       const updateStock = (stock - quantity);
 
       this.productsSvc.updateStock(productId, updateStock)

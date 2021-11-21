@@ -1,0 +1,69 @@
+<div class="container-fluid mt-5 pt-5">
+  <h1>CRUD</h1>
+  <div class="d-flex justify-content-end">
+      <button type="button" (click)="clickAddBook()" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Book</button>
+  </div>
+</div>
+
+<div>
+  <table class="table mt-3">
+      <thead class="fs-6">
+          <th scope="col">Id</th>
+          <th scope="col">Name</th>
+          <th scope="col">Price</th>
+          <th scope="col" width="60%" class="text-center">Description</th>
+          <th scope="col">Stock</th>
+          <th scope="col" class="text-center">Action</th>
+      </thead>
+      <tbody>
+          <tr *ngFor ="let book of bookData" >
+              <td>{{book.id}}</td>
+              <td>{{book.name}}</td>
+              <td>{{book.price}}</td>
+              <td>{{book.description}}</td>
+              <td>{{book.stock}}</td>
+              <td>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" (click)="onEdit(book)" data-bs-target="#exampleModal">Edit</button>
+                  <button class="btn btn-danger mx-3" (click)="deleteBooks(book)">Delete</button>
+              </td>
+          </tr>
+      </tbody>
+  </table>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Book Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="formValue">
+          <div class="mb-3">
+            <label for="BookName" class="form-label">Name</label>
+            <input type="text" class="form-control" formControlName="name">
+          </div>
+          <div class="mb-3">
+            <label for="BookPrice" class="form-label">Price</label>
+            <input type="text" class="form-control" formControlName="price">
+          </div>
+          <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <input type="text" class="form-control" formControlName="description">
+          </div>
+          <div class="mb-3">
+            <label for="stock" class="form-label">Stock</label>
+            <input type="text" class="form-control" formControlName="stock">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="cancel" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" *ngIf="showAdd" (click)="postBookDetails()" class="btn btn-primary">Add</button>
+        <button type="button" *ngIf="showUpdate" (click)="updateBookDetails()" class="btn btn-primary">Update</button>
+      </div>
+    </div>
+  </div>
+</div>

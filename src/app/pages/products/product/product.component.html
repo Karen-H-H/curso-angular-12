@@ -4,11 +4,12 @@
   <mat-card-actions>
     <button
     mat-flat-button
-    color="primary"
+    color="warn"
     (click)="onClick()"
-    [disabled]="product.stock === 0">
+    [disabled]="product.stock === 0 ">
       Buy {{ product.price | currency }}
       <mat-icon>add_shopping_cart</mat-icon>
     </button>
   </mat-card-actions>
+  
 </mat-card>

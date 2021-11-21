@@ -18,33 +18,8 @@
       <mat-radio-button value="pickup" (change)="onPickupOrDelivery(false)"
         >Pickup</mat-radio-button
       >
-      <mat-radio-button
-        value="delivery"
-        (change)="onPickupOrDelivery(true)"
-        checked
-      >
-        Delivery
-      </mat-radio-button>
     </mat-radio-group>
     <ng-container *ngIf="isDelivery; else showStores">
-      <mat-form-field class="form__element">
-        <input
-          matInput
-          placeholder="Shipping Address"
-          [(ngModel)]="model.shippingAddress"
-          name="shippingAddress"
-          #shippingAddress="ngModel"
-        />
-      </mat-form-field>
-      <mat-form-field class="form__element">
-        <input
-          matInput
-          placeholder="City"
-          [(ngModel)]="model.city"
-          name="city"
-          #city="ngModel"
-        />
-      </mat-form-field>
     </ng-container>
     <ng-template #showStores>
       <mat-form-field class="form__element">
@@ -64,7 +39,7 @@
     (click)="onSubmit(checkoutForm)"
     [disabled]="!checkoutForm.form.valid"
     class="actions__btn"
-    color="primary"
+    color="warn"
     mat-raised-button
     type="submit"
   >
